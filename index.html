@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <title>PandaKohi</title>
+</head>
+
+<body>
+    <!--Header Section-->
+    <div class="header" id="home">
+        <nav id="navbar">
+            <a href="#home" class="logo">PANDAKOHI<span>.</span></a>
+            <div class="links" id="nav">
+                <a href="#home">HOME</a>
+                <a href="#about">ABOUT</a>
+                <a href="#blog">BLOG</a>
+                <a href="#service">SERVICES</a>
+                <a href="#team">TEAM</a>
+                <a href="#contact">CONTACT</a>
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+
+        <div class="login-button-form">
+            <div class="content">
+                <h2>Bold Brew For </h2>
+                <h1>A Bold Panda</h1>
+                <button class="btn">Buy Now</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="user-login" class="login-form">
+        <form action="" class="login-container">
+            <div class="container">
+                <button class="open-button" onclick="openForm()">LOGIN</button>
+
+                <div class="form-popup" id="myForm">
+                    <form action="ne" class="form-container">
+                        <h1>Login</h1>
+
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email">
+
+                        <label for="psw"><b>Password</b></label>
+                        <input type="password" placeholder="Enter Password" name="psw">
+
+                        <button type="submit" id="submitForm" class="btn" onclick="LoginSuccess()">Login</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+                    </form>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    </div>
+
+
+    <!--Header section end-->
+
+    <!--About Section-->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image">
+
+            </div>
+            <div class="about-content">
+                <h1>What makes our coffee special?</h1>
+                <h3>Coffee is a source of starting up the day for some.</h3>
+                <p>In any part of the world be it west countries or the east countries , there is a huge
+                    number of people who prefer coffee over tea.
+                </p>
+                <button class="btn">About us</button>
+
+            </div>
+        </div>
+    </section>
+    <!--About section ends-->
+
+    <!--Blog Section-->
+    <section class="blog" id="blog">
+        <h1 class="heading">Our <span>Blog</span></h1>
+        <p class="heading-description">Read our blog and know more about our latest update..</p>
+        <div class="container">
+            <div class="post">
+                <div class="blog-img">
+                    <img src="coffee1.jpg" alt="">
+
+                </div>
+                <div class="blog-content">
+                    <h3>By admin|<Span>Tarushi Ahlawat & Shweta</Span></h3>
+                    <h1>Coffee & it's types</h1>
+                    <p>
+                        What is coffee? Coffee is a beverage brewed from the
+                        roasted and ground seeds of the tropical evergreen coffee plant. it is one
+                        of the most profitable international commodities.The four types are
+                        named as :
+                    <ul id="mylist" align="justify">
+                        <li>Robusta Coffee</li>
+                        <li>Excelsa Coffee</li>
+                        <li>Liberica Coffee</li>
+                        <li>Arabica Coffee</li>
+                    </ul>
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="coffee2.jpg" alt="My coffee">
+
+                </div>
+                <div class="blog-content">
+                    <h3>By admin|<Span>Tarushi Ahlawat</Span></h3>
+                    <h1>Leading Brands In Coffee</h1>
+                    <p>There are various brands available in coffee ; the choices refer to brand to brand based
+                        upon the persons personal choice and taste. Our brand assures our customer with fresh roasted
+                        coffee
+                        beans along side with various coffee drinks.There are several types of coffee drinks availablein
+                        market
+                        such as Iced americano , Latte ,Capacuinno ,Mocha and many more to go .Also we provide some
+                        other drinks such as yuzu and squashes that
+                        provide refreshment to the consumer from their hectic schedule when they want to relax.Following
+                        is the list of leading brands of coffee :
+                    <ul id="Mylists" align="justify">
+                        <li>Pandakohi</li>
+                        <li>Starbucks</li>
+                        <li>Tim Hortons</li>
+                        <li>Costa Coffee</li>
+
+                    </ul>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Blog section end-->
+
+    <!--Service section-->
+    <section class="service" id="service">
+        <h1 class="heading">OUR<span>SERVICES</span></h1>
+        <p class="heading-description">We provide free door
+            to door delivery all days of the week</p>
+        <div class="container">
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="arabica.jpg" alt="My coffee">
+                </div>
+                <div class="service-content">
+                    <h3> Arabica Beans</h3>
+                    <p>Arabica is coffee that comes from the beans of
+                        the Coffea Arabica plant. Arabica coffee originates
+                        from Ethiopia and is the most widely consumed type of
+                        coffee in the world making up
+                        some 60% of the world's coffee production.
+                    </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="Robusta.jpg" alt="My coffee">
+                </div>
+                <div class="service-content">
+                    <h3>Robusta Beans</h3>
+                    <p>Robusta Coffee is coffee made from the beans of the Coffea canephora plant, the origins of which
+                        are in Africa. Robusta coffee is notoriously bitter and is used primarily in instant coffee,
+                        espresso,
+                        and as a filler in certain blends of ground coffee.
+
+                    </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="Excelsa.jpg" alt="My coffee">
+                </div>
+                <div class="service-content">
+                    <h3>Excelsa</h3>
+                    <p>Robusta Coffee is coffee made from the beans of the
+                        Coffea canephora plant, the origins of which are in Africa. Robusta coffee is notoriously bitter
+                        and is used primarily in instant coffee, espresso, and as
+                        a filler in certain blends of ground coffee.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="liberica.jpg" alt="My coffee">
+                </div>
+                <div class="service-content">
+                    <h3>Liberica</h3>
+                    <p>Liberica coffee is the main species
+                        that Excelsa coffee bean belongs to.
+                        It grows on tall trees (rather than shrubs),
+                        and the beans have a distinctive long oval shape
+                        and are bigger than other varieties.
+                    </p>
+                </div>
+            </div>
+
+    </section>
+    <!--Service section ends-->
+
+    <!--Team section-->
+    <section class="team" id="team">
+        <h1 class="heading">Our<span>Team</span></h1>
+        <p class="heading description">Long lasting tradition and love for coffee</p>
+        <div class="container">
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="tarushi2.jpg" alt="My pic">
+                </div>
+                <div class="team-content">
+                    <h3>Ms.Tarushi Ahlawat</h3>
+                    <p>Web Developer</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f "></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram "></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter "></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="shweta.jpg" alt="My pic">
+                </div>
+                <div class="team-content">
+                    <h3>Ms.Shweta</h3>
+                    <p>Web Developer</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f "></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram "></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter "></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Team section end-->
+
+    <!--Contact section-->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact<span>Us</span></h1>
+        <p class="heading-description">We are always here for you..</p>
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Email address <br> <span>Send Email anytime</span></h2>
+                </div>
+                <div>
+                    <p>admin@domain.com</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Address <br> <span>Find Us</span></h2>
+                </div>
+                <div>
+                    <p>Delhi, India</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Call Us<br> <span>Call us anytime</span></h2>
+                </div>
+                <div>
+                    <p>+1234567890</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact section end-->
+
+    <!--Footer section-->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-box">
+                <h3>About us`</h3>
+                <P>We are a brand that provide our users with
+                    free information about coffee and helps the users
+                    to choose the best choice for them.
+                </P>
+            </div>
+            <div class="footer-box">
+                <h3>News letter</h3>
+                <p>Stay update with our latests</p>
+                <form>
+                    <input type="email" name="email" placeholder="admin@gmail.com">
+                    <button type="submit"><i class="fa-solid fa-right-long"></i></button>
+                </form>
+            </div>
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <p>Connect with us on:</p>
+                <div>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of footer section-->
+
+    <script src="new.js"></script>
+</body>
+
+
+</html>
